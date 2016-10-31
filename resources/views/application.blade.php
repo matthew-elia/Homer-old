@@ -399,6 +399,9 @@ if ($(window).width() > 600 ) {
 
 		function callback(response, status) {
 
+			console.log(status);
+			console.log(response);
+
 			callbackResponseArray.push(response);
 			console.log(callbackResponseArray);
 
